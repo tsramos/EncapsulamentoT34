@@ -7,9 +7,10 @@ namespace Encapsulamento
         static void Main(string[] args)
         {
             Produto p1 = new Produto("Tijela", 1.99);
-            Produto p2 = new Produto("Mc Book Wind", 999.90, 100);
-         
-            
+            Produto p2 = new Produto("Mc Book Wind", 999.90, 100);            
+            Console.WriteLine(p1.GetNome());
+
+            p1.SetPreco(-142);
         }
     }
 }
